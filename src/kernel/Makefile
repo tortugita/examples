@@ -4,6 +4,7 @@ obj-m += example02-1.o
 obj-m += example02-2.o
 obj-m := example02.o
 example02-objs := example02-1.o example02-2.o
+obj-m := timer.o
 
 KDIR = /usr/src/linux-headers-$(shell uname -r)
 
